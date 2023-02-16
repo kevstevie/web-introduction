@@ -1,6 +1,6 @@
 var submit = document.getElementById("submit");
 
-submit.onclick = function() {
+submit.onclick = function () {
     var name = document.getElementById("username");
     var checkboxes = document.getElementsByName("like");
     var count = 0;
@@ -15,7 +15,7 @@ submit.onclick = function() {
 };
 
 var clear = document.getElementById("clear");
-clear.onclick = function() {
+clear.onclick = function () {
     // checkbox 전부 클리어
     var checkboxes = document.getElementsByName("like");
     for (var i = 0; i < checkboxes.length; i++) {
